@@ -2,7 +2,7 @@
 
 h1, h2, h3, h4, h5, h6, header{
     font-family: gautreaux, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -10,4 +10,157 @@ body {
     font-family: warnock-pro, serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* navbar css */
+.navbar {
+    -webkit-box-shadow: 0 0 6px #16262e;
+    box-shadow: 0 0 6px #16262e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #16262e;
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: purple;
+    /* changes the navbar link colour when hovered over */
+}
+
+#hero-picture { 
+    background-image: url(../img/rock-of-dunamase.jpeg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* jumbotron */
+.jumbotron {
+    margin-bottom: 0;
+    padding-top: 100px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 4px #16262e;
+}
+
+.jumbotron h5 {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+/* CTA button to go to map */
+.jumbotron a {
+    margin-top: 25px;
+    background-color: Purple;
+    font-size: 22px;
+    text-shadow: none;
+}
+
+/* about section background image */
+.about-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+/* about title */
+#about-title {
+    padding-top: 30px;
+    color: #16262e;
+}
+
+/* title line */
+.title-line {
+    border-top: 5px solid purple;
+    width: 100%;
+}
+
+/* about section paragraphs */
+.about-para {
+    padding: 10px;
+    margin: 10px 0 30px 0;
+    font-size: 30px;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+
+.about-para b {
+    color: purple; /* targets the bold elements of about section paragraphs */
+}
+
+/* explore title */
+#explore-title {
+    padding-top: 30px;
+    color: #16262e;
+}
+
+/* map buttons */
+.map-buttons button {
+    margin: 10px -10px 10px -10px;
+    font-size: 25px;
+    color: Purple;
+    width: 200px;
+}
+
+.map-buttons i {
+    margin-left: 5px; /* targets icons in the map buttons */
+}
+
+/* Back to top button styling */
+#back-top-btn {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#back-top-btn:hover {
+    color: Purple;
+    /* changes the colour of the back to top icon when hovered over */
+}
+
+/* back to top paragraph */
+.back-top-p {
+    color: #16262e;
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+}
+
+/* footer styling */
+footer {
+    background-color: Purple;
+    padding-top: 20px;
+}
+
+/* social links content styling */
+.social-p {
+    color: #ffffff;
+}
+
+.social-icons i /* targets social link icons */{
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+
+.social-icons i:hover {
+    color: #f5b700;
+    border: #f5b700;
+    /* changes colour of social links when hovered over */
+}
+
+/* title of webpage and copyright info text styling */
+.footer-p {
+    color: #ffffff;
+
 }

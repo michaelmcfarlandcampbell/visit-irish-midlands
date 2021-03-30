@@ -1,41 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visit Irish Midlands</title>
     <!--boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!---fontawesome-->
     <script src="https://kit.fontawesome.com/968667d46b.js" crossorigin="anonymous"></script>
     <!---site stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Visit Irish Midlands</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Things to do</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Visit Irish Midlands</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Things to do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-<!---bootstrap bundle-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <section>
+        <div id="hero-picture" class="jumbotron">
+    <!-- site heading -->  
+    <h1 class="display-1">Visit the Irish Midlands</h1>
+    <!-- site slogan -->
+    <h5 class="lead">The heartland of Ireland</h5>
+    <!-- CTA button takes user to the map -->
+    <a href="#explore-heading" class="button btn btn-success btn-lg">Explore</a>
+    </div>
+    </section>
+    <!-- about-title -->
+<section class="about-section">
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h2 id="about-title">About</h2>
+            <hr class="title-line">
+        </div>
+    </div>
+</div>
+</section>
+<!-- about-paragraphs -->
+<div class="container">
+    <div class="row justify-content-md-center text-center">
+        <div class="col-lg-10">
+            <p class="about-para"><b>The Irish Midlands</b> include the counties of Laois, Offaly, Westmeath, and Longford.
+                </p>
+            <p class="about-para"><b>The Irish Midlands</b> has lots to offer both residents and tourists.</p>
+            <p class="about-para"><b>The Irish Midlands</b> is comprised of hills and bogland, the garden of Ireland. 
+                 This is one area of Ireland that you simply <b>MUST</b> visit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- explore title -->
+<section>
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h2 id="explore-title">Explore</h2>
+            <hr class="title-line">
+        </div>
+    </div>
+</div>
+<!-- map buttons -->
+<div class="container map-buttons">
+    <div class="row text-center">
+        <!-- attractions button -->
+        <div class="col-lg-4 col-md-4 align-items-stretch">
+            <button type="button" class="btn btn-outline-success forests-btn"><i class="fas fa-tree"></i> Forests & Woodlands</button>
+        </div>
+        <!-- museums button -->
+        <div class="col-lg-4 col-md-4 align-items-stretch">
+            <button type="button" class="btn btn-outline-success visitor-centres-btn"><i class="fas fa-university"></i> Visitor Centres</button>
+        </div>
+        <!-- sites button -->
+        <div class="col-lg-4 col-md-4 align-items-stretch">
+            <button type="button" class="btn btn-outline-success sites-btn"><i class="fas fa-binoculars"></i> Historical Sites</button>
+        </div>
+    </div>
+</div>
+<!-- map -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+<!-- back to top button -->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <i id="back-top-btn" class="fas fa-mountain fa-2x"></i>
+            <p class="back-top-p">Back to top</p>
+        </div>
+    </div>
+</div>
+</section>
+<!-- footer -->
+<footer>
+<!-- social links -->
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-md-6">
+            <h5 class="social-p">Follow us:</h5>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    
+                </div>
+            </div>
+            <!-- copyright info -->
+            <div class="col-md-6">
+                <div class="footer-p">
+                    <h5>Visit Irish Midlands</h5>
+                    <p>Michael McFarland Campbell © 2021</p>
+                </div>    
+            </div>
+         </div>   
+    </div>
+</footer>
+
+
+    <!---bootstrap bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- button.js -->
+<script src="assets/js/button.js"></script>
 </body>
+
 </html>
