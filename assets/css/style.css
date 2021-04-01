@@ -142,6 +142,19 @@ body {
     font-size: 18px;
 }
 
+/* Google Map API */
+div#map {
+    min-height: 500px;
+    margin: 10px 0 10px;
+}
+
+/* makes Google Map height smaller on small screens */
+@media(max-width: 768px) {
+    div#map {
+        min-height: 360px;
+    }
+}
+
 /* footer styling */
 footer {
     background-color: Purple;
@@ -193,10 +206,7 @@ footer {
     font-size: 16px;
 }
 
-/* map */
-#map {
-  height: 100%;
-}
+
 
 
 

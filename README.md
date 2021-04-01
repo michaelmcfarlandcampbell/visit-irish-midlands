@@ -13,3 +13,6 @@ The site shows three types of attractions that visitors may want to see while in
 ### Existing features
 
 ### Future features 
+
+## Tools used
+https://jsfiddle.net/ to help write the JavaScript
