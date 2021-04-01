@@ -192,3 +192,11 @@ footer {
 .card-text {
     font-size: 16px;
 }
+
+/* map */
+#map {
+  height: 100%;
+}
+
+
+

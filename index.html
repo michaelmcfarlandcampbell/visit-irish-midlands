@@ -10,6 +10,13 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!---fontawesome-->
     <script src="https://kit.fontawesome.com/968667d46b.js" crossorigin="anonymous"></script>
+    <!---leaflet for map-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
     <!---site stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -106,6 +113,11 @@
     <div class="row">
         <div class="col-md-12">
             <div id="map"></div>
+            <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCayCinmrkSgV5AOaGBWCnKM-EbP5smgkA&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="assets/js/maps.js"></script>
         </div>
     </div>
 </div>
@@ -152,6 +164,7 @@
         crossorigin="anonymous"></script>
     <!-- button.js -->
 <script src="assets/js/button.js"></script>
+
 </body>
 
 </html>
