@@ -40,45 +40,138 @@
         </nav>
     </header>
 
+    <!-- contact title -->
+    <section class="contact-section">
+        <div class="contact-background">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1 class="contact-heading display-4">Contact us...</h1>
+                    </div>
+                </div>
+                <div class="website-info">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <!-- site phone number -->
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                            <p>057-1234567</p>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- site email address -->
+                            <i class="fas fa-envelope fa-2x"></i>
+                            <p>info@midlands.ie</p>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- site address -->
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Port Laoise, Co. Laois, Ireland</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact form -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-md-center text-center">
+                <div class="col-lg-10 col-md-10">
+                    <p class="contact-p">If you have any queries about the Irish Midlands, please don't hesitate to get
+                        in touch!</p>
+                    <hr class="title-line">
+                    <div class="contact-form">
+                        <form id="form-reset" onsubmit="return sendMail(this);">
+                            <div class="row text-center">
+                                <div class="col-md-6 form-group">
+                                    <!-- first name input -->
+                                    <input type="text" name="firstname" class="form-control" placeholder="First name"
+                                        required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <!-- last name input -->
+                                    <input type="text" name="lastname" class="form-control" placeholder="Last name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- email address input -->
+                                <input type="email" name="emailaddress" class="form-control" placeholder="Email"
+                                    id="inputEmail4" required>
+                            </div>
+                            <div class="form-group">
+                                <!-- message input -->
+                                <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
+                                    placeholder="What would you like to know?" rows="5" required></textarea>
+                            </div>
+                            <!-- submit button -->
+                            <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="modal" id="mymodal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Thank you!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Your message has been sent successfully.</p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Okay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
     <!-- footer -->
-            <footer>
-                <!-- social links -->
-                <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-md-6">
-                            <h5 class="social-p">Follow us:</h5>
-                            <div class="social-icons">
-                                <a href="https://www.facebook.com" target="_blank"><i
-                                        class="fab fa-facebook fa-2x"></i></a>
-                                <a href="https://www.twitter.com" target="_blank"><i
-                                        class="fab fa-twitter fa-2x"></i></a>
-                                <a href="https://www.instagram.com" target="_blank"><i
-                                        class="fab fa-instagram fa-2x"></i></a>
+    <footer>
+        <!-- social links -->
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h5 class="social-p">Follow us:</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
 
-                            </div>
-                        </div>
-                        <!-- copyright info -->
-                        <div class="col-md-6">
-                            <div class="footer-p">
-                                <h5>Visit Irish Midlands</h5>
-                                <p>Michael McFarland Campbell © 2021</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </footer>
+                <!-- copyright info -->
+                <div class="col-md-6">
+                    <div class="footer-p">
+                        <h5>Visit Irish Midlands</h5>
+                        <p>Michael McFarland Campbell © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- email.js -->
+    <script src="assets/js/email.js"></script>
+    <!-- button.js -->
+    <script src="assets/js/button.js"></script>
 
+    <!---bootstrap bundle-->
 
-            <!---bootstrap bundle-->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-                crossorigin="anonymous"></script>
-            <!-- button.js -->
-            <script src="assets/js/button.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- button.js -->
+    <script src="assets/js/button.js"></script>
 </body>
 
 </html>

@@ -208,5 +208,43 @@ footer {
 
 
 
+.contact-background {
+    background-image: url(../img/rock-of-dunamase.jpeg);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+    overflow: hidden;
+}
 
+.contact-section {
+    color: #ffffff;
+}
+
+/* contact page title */
+.contact-heading {
+    padding-top: 100px;
+    text-shadow: 0 0 4px #16262e;
+}
+
+/* site number, email address and site address */
+.website-info {
+    padding-top: 50px;
+    font-size: 24px;
+    text-shadow: 0 0 4px #16262e;
+}
+
+.website-info i /* targets social link icons */{
+    padding: 10px;
+    text-shadow: 0 0 4px #16262e;
+}
+
+/* contact paragraph */
+.contact-p {
+    margin-top: 20px;
+    font-size: 26px;
+    color: #16262e;
+}
 
