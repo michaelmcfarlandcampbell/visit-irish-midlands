@@ -25,7 +25,7 @@ function initMap() {
     {place: {lat: 53.147217518101506, lng: -7.262535800357617},
     content: "<h5>Garryhinch</h5>" +
     "<p>Located in a typical woodland setting, this site is part of the old Warburton Estate....</p>" +
-    "<a href=places-to-see.html#moors-card><p>Find Out More</p></a>"},
+    "<a href=places-to-see.html#garryhinch-card><p>Find Out More</p></a>"},
     ];
 
 // Visitor Centres Markers array:
