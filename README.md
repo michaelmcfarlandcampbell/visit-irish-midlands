@@ -1,4 +1,6 @@
 # Visit Irish Midlands
+<img src="readme/mockup/visit-irish-midlands.png" alt="mockup of Visit Irish Midlands page">
+
 Visit Irish Midlands gives information about places to visit in the Irish Midlands. 
 
 ## UX
